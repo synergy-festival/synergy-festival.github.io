@@ -48,7 +48,7 @@ const P = styled.p`
     color: #AE69FF;
     line-height: 3rem;
     margin-top: 2rem;
-    font-size: 2vw;
+    font-size: 1.6rem;
     margin-top: ;
 `
 

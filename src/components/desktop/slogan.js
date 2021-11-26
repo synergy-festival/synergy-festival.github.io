@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 
 const Div = styled.div`
     width: 100%;
-    height: 100%;
+    height: auto;
     font-size: 1.4vw;
     color: #AE69FF;
 `;
