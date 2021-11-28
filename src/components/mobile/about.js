@@ -1,18 +1,29 @@
-import styled   from 'styled-components'
+import styled  from 'styled-components'
+import Header  from '../mobile/header'
+import Logo    from '../mobile/logo'
+import Slogan  from '../mobile/slogan'
+import Content from '../mobile/content'
 
 const Div = styled.div`
     width: 100%;
-    height: 100%
+    height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-`
+    flex-direction: column;
+    position: relative;
+`;
 
 
 
-function About() {
+function  About() {
     return (
-        <Div>About Page</Div>
+        <>  
+            <Logo/>
+            <Div>
+                <Header page='about' />
+                <Content/>
+                <Slogan/>
+            </Div>
+        </>
     )
 }
 

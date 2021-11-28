@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import logoVideo from '../../assests/video/logo.webm'
+import logoWebm from '../../assests/video/logo.webm'
+import logoMov  from '../../assests/video/output.mov'
 
 
 
@@ -16,9 +17,9 @@ const Video = styled.video`
 function Logo() {
     return (
         <>
-            {/* <Img src={logoImg} alt="" className='cover'/> */}
-            <Video autoPlay muted loop>
-                <source src={logoVideo} type='video/webm' />
+            <Video playsInline autoPlay muted loop>
+                <source src={logoMov}  type='video/mp4' codecs='hvc1' />
+                <source src={logoWebm} type='video/webm' />
             </Video>
         </>
     )

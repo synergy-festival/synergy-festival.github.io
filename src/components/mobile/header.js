@@ -8,17 +8,25 @@ const Div = styled.div`
     height: auto;
     justify-content: space-between;
     align-items: center;
-    padding: 4% 1%;
+    padding: 4% 2%;
 `;
 
 
-function Header() {
-    return (
-        <Div>
-            <Switcher/>
-            <Nav />
-        </Div>
+function Header(props) {
+    const { page } = props
+    return(
+        <>
+            {(() => {
+                switch (page) {
+                case 'main' :  return (<Div><Switcher/><Nav page={page}/></Div>)
+                case 'about':  return (<><Nav page={page}/></>)
+                default:       return (<><Switcher/><Nav page={page}/></>)
+                }
+            })()}
+        </>
     )
+
+
 }
 
 

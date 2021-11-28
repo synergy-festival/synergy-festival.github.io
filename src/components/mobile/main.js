@@ -9,7 +9,7 @@ import Subscribe from '../mobile/subscribe'
 
 const Div = styled.div`
     width: 100%;
-    height: 100%;
+    height: 95%;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -17,7 +17,6 @@ const Div = styled.div`
 
 const DivBottom = styled.div`
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -25,13 +24,12 @@ const DivBottom = styled.div`
 
 
 function  Main() {
-
     return (
         <>  
             <Cover />
             <Logo />
             <Div>
-                <Header/>
+                <Header page='main'/>
                 <Title/>
                 <DivBottom>
                     <Subscribe/>

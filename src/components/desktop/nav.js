@@ -26,7 +26,7 @@ const Button = styled.div`
     padding: .5rem 1rem;  
 
     &:hover {
-        color: ${(props) => props.page != 'main' ? '#FFFFFF': '#AE69FF'};;
+        color: ${(props) => props.page != 'main' ? '#FFFFFF': '#AE69FF'};
         background-color: ${(props) => props.page == 'main' ? '#FFFFFF': '#AE69FF'};
         transition: all .5s;
     }
@@ -53,11 +53,10 @@ const Button = styled.div`
 
 function Nav(props) {
     const navigate = useNavigate();
-    console.log(props.active)
     return (
         <Div>
             <Button page={props.page} disabled>News</Button>
-            <Button page={props.page} active={props.active} onClick={()=> (navigate("/about"))}>About</Button>
+            <Button page={props.page} active={props.active} onClick={()=> (navigate('/about'))}>About</Button>
             <Button page={props.page} disabled>Artist</Button>
             <Button page={props.page} disabled>Ticket</Button>
             <Button page={props.page} disabled>Merch</Button>

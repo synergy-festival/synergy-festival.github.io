@@ -5,6 +5,7 @@ import arrow from '../../assests/img/arrow-white.svg'
 const Div = styled.div`
     height: auto;
     color: #AE69FF;
+    z-index: 0;
 `;
 
 const Text = styled.div`
@@ -43,8 +44,9 @@ const Input = styled.input`
     font-size: 2rem;
     font-family: inherit;
     background-color: transparent;
+    border-radius: 0;
     border: none;
-    border-bottom: .2rem solid #AE69FF;
+    border-bottom: .1rem solid #AE69FF;
     width: 70%;
 
     &::-webkit-input-placeholder {
@@ -52,10 +54,8 @@ const Input = styled.input`
         font-size: 3vw;
     }
     
-    &:focus {
-        outline: none;
-        box-shadow: 1 1rem 2rem ${rgba('#000000', 0.1)};
-    }
+    
+
     &[type="email"]
     {
         font-size: 3vw;

@@ -4,7 +4,7 @@ import useWindowDimensions from '../hooks/useWindowDimensions'
 
 const Div = styled.div`
     width: 100%;
-    height: ${(props) => props.height*.8 + 'px'};
+    height: 80%; 
     overflow: hidden;
     display: flex;
     position: absolute;
