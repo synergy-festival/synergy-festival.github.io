@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import WebFont from 'webfontloader';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 
 WebFont.load({
@@ -17,9 +17,9 @@ WebFont.load({
 
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <App />
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
 
