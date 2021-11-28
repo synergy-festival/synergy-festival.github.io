@@ -36,7 +36,7 @@ const Right = styled.div`
     }
 
     &::-webkit-scrollbar-thumb {
-        background-color: ${rgba('#AE69FF', 0.2)}
+        background-color: ${rgba('#AE69FF', 1.0)}
     }
 
     &::-webkit-scrollbar-thumb:hover {

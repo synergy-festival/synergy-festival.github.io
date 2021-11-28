@@ -1,7 +1,7 @@
 import styled, {css} from 'styled-components'
 import { rgba } from 'polished'
-import logoGif from '../../assests/img/output.gif'
 import { useNavigate } from "react-router-dom";
+import logoGif from '../../assests/img/logo.gif'
 
 const Div = styled.div`
     position: fixed;
@@ -21,11 +21,6 @@ const Div = styled.div`
 
 `
 
-
-const Video = styled.video`
-    width: 30%;
-    height: auto;
-`
 
 const Button = styled.div`
     text-align: center;

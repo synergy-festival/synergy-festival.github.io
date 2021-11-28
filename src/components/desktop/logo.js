@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import logoWebm from '../../assests/video/logo.webm'
-import logoMov  from '../../assests/video/output.mov'
+import logoMov  from '../../assests/video/logo.mov'
 
 
 
