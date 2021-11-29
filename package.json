@@ -1,6 +1,7 @@
 {
   "homepage": "https://synergy-festival.github.io",
   "name": "synergy-festival",
+  "description": "Synergy Festival Shape The Future With Music, Art and Technology",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

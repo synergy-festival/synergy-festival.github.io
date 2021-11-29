@@ -4,11 +4,13 @@ import { Helmet } from "react-helmet";
 function Tab() {
 
     return (
-        <Helmet> 
-            <meta name="description" 
-                  content="Synergy Festival Shape The Future With Music, Art and Technology" 
-            />
+        <Helmet>
             <title>Synergy Festival</title> 
+            {/* <meta name="description" 
+                  content="Synergy Festival Shape The Future With Music, Art and Technology" 
+            /> 
+            <meta property="og:description" 
+                  content="Synergy Festival Shape The Future With Music, Art and Technology" /> */}
             <link rel="icon" type="image/png" href={logo} sizes="16x16" />
         </Helmet>
     )

@@ -6,10 +6,13 @@ import { BrowserView, MobileView } from 'react-device-detect';
 
 
 function App() {
+
+  const desc = 'Synergy Festival Shape The Future With Music, Art and Technology'
+  document.querySelector('meta[name="description"]').setAttribute('content', desc);
+
   return (
     <div className="App">
-        
-        <Tab />
+        {/* <Tab /> */}
         <BrowserView>
           <Desktop/>
         </BrowserView>
