@@ -3,21 +3,19 @@ import Tab     from './components/tab'
 import Desktop from './components/desktop/container'
 import Mobile  from './components/mobile/container'
 import { BrowserView, MobileView } from 'react-device-detect';
+import { useState } from 'react';
 
 
 function App() {
-
-  const desc = 'Synergy Festival Shape The Future With Music, Art and Technology'
-  document.querySelector('meta[name="description"]').setAttribute('content', desc);
-
+  const [lang, setLang] = useState('eng')
   return (
     <div className="App">
-        {/* <Tab /> */}
+        <Tab />
         <BrowserView>
-          <Desktop/>
+          <Desktop lang={lang} setLang={setLang} />
         </BrowserView>
         <MobileView>
-          <Mobile/>
+          <Mobile lang={lang} setLang={setLang} />
         </MobileView>
     </div>
   );

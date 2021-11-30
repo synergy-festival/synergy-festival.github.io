@@ -11,6 +11,12 @@ const IconDiv = styled.div`
     margin: 3vh 0;
 `;
 
+const A = styled.a`
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+    margin: 0 .3rem; 
+`
+
 const Img = styled.img`
     max-width: 1.5rem;
     max-height: 1.5rem;
@@ -21,9 +27,9 @@ const Img = styled.img`
 function Icon() {
     return (
         <IconDiv>
-            <Img src={fb} />
-            <Img src={ig} />
-            <Img src={discord} />
+            <A target="_blank" href='https://www.facebook.com/synergyfestivaltw/'><Img src={fb} /></A>
+            <A target="_blank" href='https://www.instagram.com/synergy.fest/'><Img src={ig} /></A>
+            <A target="_blank" href='https://discord.com/channels/872441483536502804/914828648819879947'><Img src={discord} /></A>
         </IconDiv>
     )
 }

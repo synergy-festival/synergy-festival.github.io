@@ -9,14 +9,14 @@ const Div = styled.div`
 `;
 
 const Span = styled.span`
-    font-size: 1.4vw;
+    font-size: max(1.4vw, 16px);
     white-space: nowrap;
 `;
 
 const Symbol = styled.span`
     vertical-align: center;
     height: auto;
-    font-size: 1vw;
+    font-size: max(1vw, 12px);
     white-space: nowrap;
 `;
 
@@ -34,7 +34,7 @@ function  Slogan() {
         <Div>
             <Marquee style={style} gradientWidth='10'>
                 <Span>Synergy Festival  2022.3.19 <Symbol>&rarr;</Symbol> 20</Span>
-                <Span>Synergy Festival Shape The Future With Music, Art and Technology</Span>
+                <Span>Shape The Future With Music, Art and Technology</Span>
             </Marquee>
         </Div>
     )

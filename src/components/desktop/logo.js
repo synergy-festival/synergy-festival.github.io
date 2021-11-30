@@ -7,9 +7,11 @@ import logoMov  from '../../assests/video/logo.mov'
 
 
 const Video = styled.video`
-    margin-top: -3rem;
+    position: absolute;
+    left: max(5%, 5px);
+    bottom: max(20%, 20px);
     z-index: -1;
-    width: 15%;
+    width: max(15%, 30px);
     height: auto;
 `
 

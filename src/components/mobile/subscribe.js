@@ -1,6 +1,9 @@
+import { useState } from 'react'
 import { rgba } from 'polished'
 import styled from 'styled-components'
 import arrow from '../../assests/img/arrow-white.svg'
+import addNewEmail from '../../firebase/subscribe'
+
 
 const Div = styled.div`
     height: auto;
@@ -36,7 +39,7 @@ const Group = styled.div`
     position: relative;
     width: 100%;
     display: flex;
-    justify-content:center;  
+    justify-content: center;  
 `
 
 const Input = styled.input`
@@ -54,12 +57,22 @@ const Input = styled.input`
         font-size: 3vw;
     }
     
-    
+    &:focus{
+        outline: none;
+    }
 
     &[type="email"]
     {
         font-size: 3vw;
         color: #AE69FF;
+    }
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover, 
+    &:-webkit-autofill:focus, 
+    &:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0 30px white inset !important;
+        -webkit-text-fill-color: #AE69FF !important;
     }
 `
 
@@ -84,15 +97,29 @@ const Img = styled.img`
 `
 
 function Subscribe() {
+
+    const [inputValue, setInputValue] = useState("");
+
+
+    const handleUserInput = (e) => {
+        setInputValue(e.target.value);
+    };
+
+    const saveAanswer = (event) => {
+        event.preventDefault();
+        addNewEmail(event.target.email.value, 'mobile')
+        setInputValue('');
+    }
+
     return (
         <Div>
             <Text>
                 <Span>&#9679;</Span>
                 Send email to subscribe
             </Text>
-            <Form action='#' className="subscribe_form" id="subscribe_form">
+            <Form onSubmit={saveAanswer} className="subscribe_form" id="subscribe_form">
                 <Group>
-                    <Input placeholder='ex: abc123@gmail.com' type='email' id="email" required></Input>
+                    <Input value={inputValue} onChange={handleUserInput} placeholder='ex: abc123@gmail.com' type='email' id="email" required></Input>
                     <Button form="subscribe_form" value="Submit">
                         <Img src={arrow} />
                     </Button>

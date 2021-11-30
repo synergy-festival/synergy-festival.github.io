@@ -1,10 +1,10 @@
-import { useState } from 'react';
 import styled, { css } from 'styled-components'
 
 const SwitchDiv = styled.div`
     width: auto;
     height: auto;
     font-size: 2rem;
+    visibility: hidden;
 `;
 
 const P = styled.p`
@@ -21,8 +21,8 @@ const P = styled.p`
 `;
 
 
-function Switcher() {
-    const [lang, setLang] = useState('eng')
+function Switcher(props) {
+    const {lang, setLang} = props
 
     return (
         <SwitchDiv>

@@ -15,17 +15,17 @@ const Div = styled.div`
 `;
 
 
-function  Main() {
-
+function  Main(props) {
+    const {lang, setLang} = props
     return (
         <>  
             <Cover/>
             <Div>
-                <Header page='main'/>
+                <Header page='main' lang={lang} setLang={setLang} />
                 <Nav page='main'/>
                 <Title />
                 <Logo />
-                <Subscribe />
+                <Subscribe lang={lang}/>
             </Div>
         </>
     )

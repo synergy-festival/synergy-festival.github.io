@@ -5,6 +5,7 @@ const SwitchDiv = styled.div`
     width: auto;
     height: auto;
     font-size: 1.2rem;
+    visibility: hidden;
 `;
 
 const P = styled.p`

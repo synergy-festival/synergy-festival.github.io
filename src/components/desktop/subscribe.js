@@ -1,6 +1,8 @@
+import { useState } from 'react'
 import { rgba } from 'polished'
 import styled from 'styled-components'
-import arrow from '../../assests/img/arrow-white.svg'
+import arrow       from '../../assests/img/arrow-white.svg'
+import addNewEmail from '../../firebase/subscribe'
 
 const Div = styled.div`
     display: flex;
@@ -20,6 +22,7 @@ const Text = styled.div`
     letter-spacing: .1rem;
     font-size: 3vw;
     flex-shrink: 0;
+
 `
 
 const Span = styled.span`
@@ -58,6 +61,15 @@ const Input = styled.input`
         font-size: 2vw;
         color: ${rgba('#FFFFFF', 0.8)}
     }
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover, 
+    &:-webkit-autofill:focus, 
+    &:-webkit-autofill:active {
+        transition: background-color 5000s ease-in-out 0s;
+        -webkit-text-fill-color: ${rgba('#FFFFFF', 0.8)} !important;
+    }
+
 `
 
 const Button = styled.button`
@@ -80,17 +92,31 @@ const Img = styled.img`
     height: auto
 `
 
-function Subscribe() {
+function Subscribe(props) {
+
+    const { lang } = props
+    const [inputValue, setInputValue] = useState("");
+    
+    const handleUserInput = (e) => {
+        setInputValue(e.target.value);
+    };
+
+    const saveAanswer = (event) => {
+        event.preventDefault();
+        addNewEmail(event.target.email.value, 'desktop')
+        setInputValue('');
+    }
+
     return (
         <Div>
             <Text>
                 <Span>&#9679;</Span>
-                Send email to subscribe
+                {lang == 'chinese' ? '輸入信箱訂閱': 'Send email to subscribe'}
             </Text>
-            <Form action='#' className="subscribe_form" id="subscribe_form">
+            <Form onSubmit={saveAanswer} className="subscribe_form" id="subscribe_form">
                 <Group>
-                    <Input type='email' id="email" required></Input>
-                    <Button form="subscribe_form" value="Submit">
+                    <Input value={inputValue} type='email' id="email" onChange={handleUserInput} required></Input>
+                    <Button form="subscribe_form" value="Submit" onClick={()=>{}}>
                         <Img src={arrow} />
                     </Button>
                 </Group>

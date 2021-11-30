@@ -1,6 +1,7 @@
-import logoImg from '../../assests/img/logo-silver.png'
 import styled, { css, keyframes } from 'styled-components'
 import { useNavigate } from "react-router-dom";
+import logoWebm from '../../assests/video/logo.webm'
+import logoMov  from '../../assests/video/logo.mov'
 
 
 const Div = styled.div`
@@ -22,28 +23,23 @@ const P = styled.p`
 `;
 
 
-const rotateAnimation = keyframes`
- 0% { transform: rotateY(0deg); }
- 100% { transform: rotateY(360deg); }
-`
 
-
-const Img = styled.img`
-    width: 4%;
+const Video = styled.video`
+    width: 3%;
     height: auto;
-    margin-left: .5%;
-    animation-name: ${rotateAnimation};
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
+    margin-left: .1%;
 `;
 
 
 function Back() {
     const navigate = useNavigate();
     return (
-        <Div>
-            <P onClick={()=>(navigate('/'))}>Back To Home</P>
-            <Img src={logoImg} />
+        <Div onClick={()=>(navigate('/'))}>
+            <P>Back To Home</P>
+            <Video playsInline autoPlay muted loop>
+                <source src={logoMov}  type='video/mp4' codecs='hvc1' />
+                <source src={logoWebm} type='video/webm' />
+            </Video>
         </Div>
     )
 }

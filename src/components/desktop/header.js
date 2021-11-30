@@ -15,18 +15,20 @@ const Div = styled.div`
 
 function Header(props) {
 
+    const {lang, setLang, page} = props
 
     return (
         <Div>
             {(() => {
-                switch (props.page) {
-                case 'main' :  return (<><Switcher/> <Icon/></>)
+                switch (page) {
+                case 'main' :  return (<><Switcher lang={lang} setLang={setLang} /> <Icon/></>)
                 case 'about':  return (<><Back/> <Next/></>)
-                default:       return (<><Switcher/> <Icon/></>)
+                default:       return (<><Switcher lang={lang} setLang={setLang} /> <Icon/></>)
                 }
             })()}
         </Div>
     )
+    
 }
 
 
