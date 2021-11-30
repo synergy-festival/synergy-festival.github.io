@@ -3,6 +3,9 @@ import { rgba } from 'polished'
 import styled from 'styled-components'
 import arrow       from '../../assests/img/arrow-white.svg'
 import addNewEmail from '../../firebase/subscribe'
+import Swal from "sweetalert2";
+
+
 
 const Div = styled.div`
     display: flex;
@@ -94,8 +97,9 @@ const Img = styled.img`
 
 function Subscribe(props) {
 
+
     const { lang } = props
-    const [inputValue, setInputValue] = useState("");
+    const [inputValue, setInputValue] = useState('');
     
     const handleUserInput = (e) => {
         setInputValue(e.target.value);
@@ -103,8 +107,18 @@ function Subscribe(props) {
 
     const saveAanswer = (event) => {
         event.preventDefault();
-        addNewEmail(event.target.email.value, 'desktop')
+        // addNewEmail(event.target.email.value, 'desktop')
         setInputValue('');
+        Swal.fire({
+            customClass: {
+                container: 'swal-popup',
+                title: 'swal-title',
+                cancelButton: 'swal-confirm'
+            },
+            title: 'Subscribe',
+            text: 'Thanks for your subscribtion',
+            heightAuto: true
+        });
     }
 
     return (
@@ -116,7 +130,7 @@ function Subscribe(props) {
             <Form onSubmit={saveAanswer} className="subscribe_form" id="subscribe_form">
                 <Group>
                     <Input value={inputValue} type='email' id="email" onChange={handleUserInput} required></Input>
-                    <Button form="subscribe_form" value="Submit" onClick={()=>{}}>
+                    <Button form="subscribe_form" value="Submit">
                         <Img src={arrow} />
                     </Button>
                 </Group>
