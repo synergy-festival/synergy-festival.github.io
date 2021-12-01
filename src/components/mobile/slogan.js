@@ -4,6 +4,7 @@ import Marquee from "react-fast-marquee";
 
 const Div = styled.div`
     padding: 2% 0;
+
     position: fixed;
     width; 100%;
     height: auto;
@@ -12,7 +13,7 @@ const Div = styled.div`
     background-color: white;
 `
 
-const Span = styled.span`
+const Span = styled.span`    
     white-space: nowrap;
 `;
 

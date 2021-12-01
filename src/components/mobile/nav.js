@@ -37,7 +37,7 @@ function Nav(props) {
                     toggled={menu}
                     toggle={setMenu}
                     easing="ease-in"
-                    size={16}
+                    size={14}
                     color='#AE69FF'
                 />
             </Div>
