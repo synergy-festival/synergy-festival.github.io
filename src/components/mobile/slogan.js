@@ -30,7 +30,7 @@ function  Slogan() {
     return (
         <Div>
             <Marquee style={style} gradientWidth='10'>
-                <Span>Synergy Festival Shape The Future With Music, Art and Technology</Span>
+                <Span>Shape The Future With Music, Art and Technology</Span>
             </Marquee>
         </Div>
 
