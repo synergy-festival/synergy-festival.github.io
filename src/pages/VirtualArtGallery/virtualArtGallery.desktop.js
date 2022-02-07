@@ -234,8 +234,7 @@ function DesktopVirtualArtGallery() {
                             <A target='_blank' href='https://www.veeeky.com'>https://www.veeeky.com</A> <br/>
                             在物聯網、演算法、後人類時代的語境下，吳維佳的作品圍繞著當代訊息社會與科技技術的思考:聲音、視覺、舞台情緒、觀者表演者之間的彈性，以至內在的敘事、當代社會符號所產生的共感。她採樣和實驗聲音和視覺的方式是無邊際且開放的:開源軟體到 3D 建模，電腦生成繪畫 (CGI)等等，到音訊轉換的物理機械動力或轉譯為視覺。在這個現實與虛擬一步步模糊的世界中，做為獨立藝術家，她穿梭世界各處的文化場景參與展演。這些創作內容包含網路/碎片化資訊流動/性別/渠道/全球化──在地化等等，呈現出一種源於臨近未來的烏托邦/反烏托邦/無烏托邦的高飽和色彩世界，最大的目的是讓觀者思索當代社會可能的生活方案。
                             <SMALLBR><br/></SMALLBR>
-                            Born in Kaohsiung and raised in Taipei (Taiwan), Veeeky currently lives and works in Beijing (China). She started from the cofounder of Bounce Girlz, a group focusing on music event and content in Taiwan, Taipei, when she was in National Taiwan University studying sociology.  After spending time digging into visual communication in Goldsmiths College, London, she had more chances to explore new sounds and further established her own way of selection of music and creating visual art.  Her approach of synchronizing and sampling sound with visual is limitless, experimenting sounds consisting of surprising content. She is now taking care of the visual in a creative music label Do Hits, making cover arts, live visual and graphics. Do Hits is known for Asian digital sound and art. Veeeky’s visual is based on the thinking of contemporary society, discussing internet, gender, information, channels, globalization-local content, often presenting it in high saturation utopia videos.
-                            His work centers around personal experience as an immigrant, adapts to connect different subjects or stories to address the phenomena. He received an MFA in Digital Arts at Pratt Institute in Brooklyn. Lin’s work has been included in international group exhibitions such as ”The 15th Digital Art Festival Taipei” “The 6th International Video Art Exhibition”, “ADAF 14th Athens Digital Arts Festival” and solo exhibitions at Taipei Fine Art Museum, Kuandu Museum of Fine Arts. 
+                            After spending time digging into visual communication in Goldsmiths College, London, she had more chances to explore new sounds and further established her own way of selection of music and creating visual art.  Her approach of synchronizing and sampling sound with visual is limitless, experimenting sounds consisting of surprising content. She is now taking care of the visual in a creative music label Do Hits, making cover arts, live visual and graphics. Do Hits is known for Asian digital sound and art. Veeeky’s visual is based on the thinking of contemporary society, discussing internet, gender, information, channels, globalization-local content, often presenting it in high saturation utopia videos.
                         </BLOCK>
                         <BLOCK>
                             <b>XTRUX</b><br/>
@@ -286,13 +285,10 @@ function DesktopVirtualArtGallery() {
                         <BLOCK>
                             <b>RONG</b><br/>
                             <A target='_blank' href='https://www.instagram.com/rong_ad/'>https://www.instagram.com/rong_ad/</A><br/>
-                            Master Chu，1994年生，涉足藝術指導、數位藝術、平面視覺、品牌規劃及網頁設計等範疇。現為＂aether3 三渡創意＂負責人之一，此團隊致力於創造嶄新且獨特的視覺符碼，並將前衛的創意發想帶入每一項專案；同時也以個人名義發表獨立製作的創作，作品涵蓋次文化、音樂及服飾等領域，試圖創造強烈衝突並具敘事感的畫面。
                             <SMALLBR><br/></SMALLBR>
                             目前致力於製作動畫、VJ、3D領域相關之個人創作。重點在於探索，並且創造一些未知元素的作品以表達自我。興趣則是利用閒暇時間去環島，並在每一次的旅行中獲得不同的啟發，是我靈感的根源，而這些也和我的創作息息相關。<br/>
-                            創作這件事，對我來說一直都是不可或缺的，它時常可以引領我的生活以及情緒。偶爾腦海裡經常浮現一些不明生物，在我的潛意識裡，祂們擁有一個完整的生態宇宙，混藏在我的行星記憶庫裡。因此想利用3D結合動畫，將他們實質化，除了重新賦予新的生命之外，祂們的顯化，對我來說是Y世代的福音。身處於資訊混沌的年代裡，可以快速的學習，運用，不停的創造、延伸。虛擬的新紀元，開啟了我的精神感官世界，也造就了我對未來的各種想像，生活也是有跡可循的。
                             <SMALLBR><br/></SMALLBR>
-                            Currently working on personal creations related to animation, Video Jockey and 3D fields.The focus is on exploring and creating works of unknown elements to express oneself.  I travel around the island oftenly and get a different inspiration each time I travel. It is the source of my inspiration, moreover, these are also closely related to my creation.<br/>
-                            Creating has always been inseparable to me, it can guide my life and emotions. Occasionally, some unknown creatures will appear in my mind. In my subconscious, they have a complete ecological universe, which is mixed in my planetary memory bank. Therefore, I want to use 3D combined with animation to materialize them. In addition to giving rebirth, their manifestation is a blessing from Y Generation to me. Being the age of information chaos, we can quickly learn, use, and constantly create and extend. The new era of virtuality has inspired my spiritual sensory world, and it has also created my various imaginations about the future which is also traceable in life.
+                            Currently working on personal creations related to animation, Video Jockey and 3D fields.The focus is on exploring and creating works of unknown elements to express oneself.  I travel around the island oftenly and get a different inspiration each time I travel. It is the source of my inspiration, moreover, these are also closely related to my creation.
                         </BLOCK>
                         <BLOCK>
                             <b>Frran Bertomeu Castells & 羅妍婷</b><br/>
@@ -304,7 +300,7 @@ function DesktopVirtualArtGallery() {
                             Together they have collaborated in several interactive experiences and games that explore different uses of music in game design and novel music-centered storytelling devices. They are currently based in Taipei.
                         </BLOCK>
                         <BLOCK>
-                            <b>姚睿蘭&nbsp;Jui-Lan Yao</b><br/>
+                            <b>姚睿蘭 Jui-Lan Yao</b><br/>
                             <A target='_blank' href='https://www.instagram.com/yaoyaya.art/'>https://www.instagram.com/yaoyaya.art/</A><br/>
                             姚睿蘭，台南人，目前常駐於台北。畢業於台藝大書畫藝術學系、北藝大新媒體藝術學系碩士班， 曾赴法國布爾日高等藝術學院交換（2013）。創作根基於書畫水墨的傳統訓練，跨足互動科技、關係美學。 近期創作著重在科技發展背後的傳導媒材、技術語言與其隱喻。<br/>
                             於2019年初舉辦個展—「印予召准」以大地遊戲的方式將展場分佈於台北市11個空間。駐村經歷包含STUPIN共享工作室計畫、《 場所感 》－ 青年藝術駐村及駐點培力、《 邊陲人》台灣與尼泊爾鄉憂系列計畫三部曲，作品展出於2020年台灣雙年展。 技術支援長期與maker社群成員協作。
@@ -321,14 +317,14 @@ function DesktopVirtualArtGallery() {
                             Inserting life experience and instinctive creative process into it, majority of my work are presented as animation and video installation.<br/>
                         </BLOCK>
                         <BLOCK>
-                            <b>鄭道元&nbsp;Cheng Daoyuan</b><br/>
+                            <b>鄭道元 Cheng Daoyuan</b><br/>
                             <A target='_blank' href='http://www.chengdaoyuan.com/'>http://www.chengdaoyuan.com/</A><br/>
                             鄭道元是來自臺北的新媒體創作者，以聲響、影像及裝置等形式探尋自我狀態與存在本質的相對與共存，將一體兩面作為核心概念貫穿於作品中。2019年日本演出後發行首張實體專輯，2020年於國立臺灣美術館製作7.1聲道聲音設計，並於MUTEK線上活動Nexus Experience演出。 現為英國Currents.fm及香港聯合電台常駐主持。
                             <SMALLBR><br/></SMALLBR>
                             Cheng Daoyuan is a Taipei-based multimedia creator, he searches paradox and coexist between self-awareness and existence with experimental sound, visual and installations. At the core of Cheng's art is the convergence of two distinct planes into a coherent form, tries to present the philosophy concept of "Everything is nothingness, the end is the beginning" in his works.
                         </BLOCK>
                         <BLOCK>
-                            <b>阮柏遠&nbsp;Juan Poyuan</b><br/>
+                            <b>阮柏遠 Juan Poyuan</b><br/>
                             <A target='_blank' href='https://www.poyuan.art/'>https://www.poyuan.art/</A><br/>
                             阮柏遠，藝術家、遊戲玩家與網路成癮者，以數位考古作為創作脈絡的核心概念，長期以數位遊戲、網路空間作為關注研究對象，將成長在網際網路、新型態的入口瀏覽器與線上社群、電子數位遊戲等所架構的後網路時代，來自於遊戲或數位的美學等等，新形式的數位視覺經驗等等這些要素作為阮柏遠創作的重要發源，創作融合線上遊戲、網路社群、機造影片、遊戲引擎、3D軟體，不管是歷史、記憶、美感、技術上的特性等等創造出新的、屬於當代新的視覺經驗、技術思考以及雕塑、影像等等觀看方式，呈現出的新的觀點與思考方式去反思與叩問這個後網路時代背後的元設定。
                             <SMALLBR><br/></SMALLBR>
@@ -340,14 +336,6 @@ function DesktopVirtualArtGallery() {
                             Bing是⼀位數字媒體領域的圖像創作者，致⼒於通過數字互動與視覺藝術的結合，探索行為和體驗給作品概念和形式表達上帶來的可能性。從平⾯設計到計算機藝術，她沉迷於構建系統，在克制中失控，在混亂與秩序間找⼀個精準的⼊口，然後通向更加寬⼴的詩意。
                             <SMALLBR><br/></SMALLBR>
                             Bing is a digital creator and image maker. She is dedicated to combine visual arts and multimedia interactions, as well as to explore the possibilities where conceptive expression and live experience intersect. Her creative practice includes Graphic Design, Photography, Video Arts, Interactive Installations and Audio-visual Performance, etc. Bing is fascinated with constructing systems, which she could navigate to an exit of poetics in between the order and the chaos.
-                        </BLOCK>
-                       <BLOCK>
-                            <b>Guy Ronen, Alice Minervini,Elettra Giunta</b><br/>
-                            Guy 是一位來自倫敦的穿領域藝術家。X也的實踐是由非線性的、零散的和廣闊的知識體系所掌握的，X也試圖用這些知識重新定位和反學習（Unlearning）現有的虛構和具體結構。 Alice 是一位藝術家和作家，她對於以動作及虛構敘事作為酷兒未來的想像感到興趣。她的創作實踐是以一系列合作的形式展開，研究技術介面對親密關係所造成的情緒影響。Elettra 是一位動作藝術家和編舞家，來自西西里島，目前居住在倫敦。她的藝術實踐源於她對流動現實、做夢地狀態以及 womxn 的賦權和脆弱的研究。
-                            <SMALLBR><br/></SMALLBR>
-                            Guy is a multidisciplinary artist based in London. Their practice is held by nonlinear, patchy and capacious bodies of knowledge with whom they attempt to reorientate and unlearn existing fictional and embodied structures.<br/>
-                            Alice is an artist and writer interested in movement and fiction as ways to envision queer futures. Her practice unfolds as a series of collaborations that investigate the emotional impacts of technological interfaces on intimacy.<br/>
-                            Elettra is a movement artist and choreographer, originally from Sicily, currently based in London. Her artistic practice is informed by her interest in fluid realities, dreaming states, and womxn's empowerment and vulnerabilities.<br/>
                         </BLOCK>
                        <BLOCK>
                             <BIG>"Last Night my Dream Tapped Yours"</BIG>
@@ -367,7 +355,7 @@ function DesktopVirtualArtGallery() {
                         </BLOCK>
                        <BLOCK>
                             <b>莊凱竣 Kai Chun Chuang</b><br/>
-                            <A target='_blank' href='https://www.instagram.com/ kai_chun_chuang___/'>https://www.instagram.com/ kai_chun_chuang___/</A><br/>
+                            <A target='_blank' href='https://www.instagram.com/kai_chun_chuang___/'>https://www.instagram.com/kai_chun_chuang___/</A><br/>
                             莊凱竣 1993 年出生於台灣，現以藝術家身份居於柏林。 2014年獲得台灣全國創意舞蹈大賽一等獎。 2015年在台灣國立藝術大學完成學士學位，2019年在安東布魯克納大學獲得碩士學位。2019 凱竣在 Festspielhaus St.Poelten 表演了 Ohad Naharin 的 Decadance 和 Shahar Binyamini 的 Ballroom。目前，他是以色列編舞Shahar Binyamini 在韓國Opéra national du Rhi，韓國藝術計畫Bora中的助理和排練導演。此外，他還與中國作曲家趙怡然、Musikfabrik 合作，並與奧地利編舞家 Rose Breuss 在 Choreographia[Inter]Austriaca 合作。
                             <SMALLBR><br/></SMALLBR>
                             Kai Chun Chuang born in 1993 Taiwan is a freelance artist based in Berlin. In 2014 he received a first-place award at Taiwan's National Creative Dance Competition. In 2015 he completed his bachelor's degree at the Taiwan National University of Arts, followed by his master degree at the Anton Bruckner University in 2019.  2019 Kai performed Decadance by Ohad Naharin and Ballroom by Shahar Binyamini at the Festspielhaus St.Poelten. Currently he is assistant and rehearsal director for Israeli choreographer Shahar Binyamini's work at the Opéra national du Rhi, Korea Art Project Bora. In addition, he cooperates with the Chinese composer Yiran Zhao and Musikfabrik and works with an Austrian choreographer Rose Breuss in Choreographia[Inter]Austriaca.
@@ -409,7 +397,7 @@ function DesktopVirtualArtGallery() {
                     <T big={true}>工作人員</T>
                     <T2>
                         藝術空間藝術家：林子桓、吳維佳、XTRUX <br/>
-                        作品展示藝術家：莊凱竣、趙怡然、N. Andrew Walsh, Guy Ronen, Alice Minervini, Elettra Giunta, HakureiNeko, Tzu Ni, Jacys Lin, Master Chu, RONG, Ferran Bertomeu Castells & 羅妍婷、姚睿蘭、陳政維、鄭道元、阮柏遠、Bin<br/>
+                        作品展示藝術家：莊凱竣、趙怡然、N. Andrew Walsh, Guy Ronen, Alice Minervini, Elettra Giunta, HakureiNeko, Tzu Ni, Jacys Lin, Master Chu, RONG, Ferran Bertomeu Castells & 羅妍婷、姚睿蘭、陳政維、鄭道元、阮柏遠、Bing<br/>
                         虛擬藝廊音樂： 吳維佳<br/>
                         Avatar: 蜜蜂、貓頭鷹、蠍子 by <A target='_blank' href='https://sketchfab.com/Mofn'>@Mofn</A>, 新能祭 Avatar by XTRUX<br/>
                         策展人：李彥儀與新能祭團隊 <br/>

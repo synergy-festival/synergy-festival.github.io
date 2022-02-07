@@ -10,6 +10,18 @@ const Nav = styled.div`
     justify-content: space-between;
     font-size: 1.2vw;
     margin-top: 1rem;
+
+    & * {
+        &::selection {
+            background: #AE69FF;
+            color: #FFFFFF;
+        }
+
+        &::-moz-selection {
+            background: #AE69FF;
+            color: #FFFFFF;
+        }
+    }
 `
 
 
@@ -50,6 +62,8 @@ const NavItem = styled(NavLink)`
         color ${rgba(props.page == '/' ? props.theme.color.black: props.theme.color.purple, props.theme.alpha.middle)}; 
         border-color: ${rgba(props.page == '/' ? props.theme.color.black: props.theme.color.purple, props.theme.alpha.light)};
     `}
+
+
 `;
 
 

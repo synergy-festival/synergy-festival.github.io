@@ -36,6 +36,7 @@ const MenuDiv = styled.div`
     justify-content: space-around;
     align-items: center;
     padding: 10% 0;
+    
 `
 
 const NavItem = styled(NavLink)`
