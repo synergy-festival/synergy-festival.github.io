@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.49ffffda.chunk.js",
-    "main.js.map": "/static/js/main.49ffffda.chunk.js.map",
+    "main.js": "/static/js/main.bb7775c7.chunk.js",
+    "main.js.map": "/static/js/main.bb7775c7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.85fa7ea3.js",
     "runtime-main.js.map": "/static/js/runtime-main.85fa7ea3.js.map",
     "static/js/2.6a95f3be.chunk.js": "/static/js/2.6a95f3be.chunk.js",
     "static/js/2.6a95f3be.chunk.js.map": "/static/js/2.6a95f3be.chunk.js.map",
     "index.html": "/index.html",
     "static/js/2.6a95f3be.chunk.js.LICENSE.txt": "/static/js/2.6a95f3be.chunk.js.LICENSE.txt",
+    "static/media/0107.54be1aaf.jpg": "/static/media/0107.54be1aaf.jpg",
+    "static/media/0121.ad7eba8f.jpg": "/static/media/0121.ad7eba8f.jpg",
+    "static/media/0124.61ed038a.jpg": "/static/media/0124.61ed038a.jpg",
+    "static/media/0125.0e63d0c8.jpg": "/static/media/0125.0e63d0c8.jpg",
+    "static/media/1226.799b4704.jpg": "/static/media/1226.799b4704.jpg",
     "static/media/AoWu.4105172e.jpg": "/static/media/AoWu.4105172e.jpg",
     "static/media/ArdentWei.1faa77c9.jpg": "/static/media/ArdentWei.1faa77c9.jpg",
     "static/media/B-E-N-N.a3c58ab8.jpg": "/static/media/B-E-N-N.a3c58ab8.jpg",
@@ -39,7 +44,6 @@
     "static/media/logo.3b46c49c.gif": "/static/media/logo.3b46c49c.gif",
     "static/media/logo.5ae38c5c.mov": "/static/media/logo.5ae38c5c.mov",
     "static/media/logo.da9ede42.webm": "/static/media/logo.da9ede42.webm",
-    "static/media/open-call.2a357de4.png": "/static/media/open-call.2a357de4.png",
     "static/media/title-purple.120bdc46.svg": "/static/media/title-purple.120bdc46.svg",
     "static/media/title-white.ab0e5a88.svg": "/static/media/title-white.ab0e5a88.svg",
     "static/media/三牲獻藝.619e3b17.jpg": "/static/media/三牲獻藝.619e3b17.jpg"
@@ -47,6 +51,6 @@
   "entrypoints": [
     "static/js/runtime-main.85fa7ea3.js",
     "static/js/2.6a95f3be.chunk.js",
-    "static/js/main.49ffffda.chunk.js"
+    "static/js/main.bb7775c7.chunk.js"
   ]
 }
