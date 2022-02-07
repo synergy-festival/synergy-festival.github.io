@@ -4,17 +4,14 @@ import { rgba } from 'polished'
 
 
 const Div = styled.div`
-
     width: 100%;
     max-height: 85%;
     display: flex;
     flex: 3 1;
-
 `;
 
 
 const Left = styled.div`
-
     margin-right: 1%;
     width: 100%;
     height: 100%;

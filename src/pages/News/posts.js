@@ -21,11 +21,12 @@ const List = styled.div`
 
 
 function Posts() {
-    const newsData = getNews();
+    const news = getNews()['data'];
+    const sortedNews = news.sort((a, b) => a['date'].localeCompare(b['date'])).reverse()
     return (
         <List>
             {
-                newsData['data'].map(({ date, image, title, content }, index) => {
+                sortedNews.map(({ date, image, title, content }, index) => {
                     return (
                         isMobile
                         ? <MobilePost  key={index} date={date} image={image} title={title} content={content} /> 

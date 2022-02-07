@@ -47,13 +47,14 @@ const StyledLazyLoadImage = styled(LazyLoadImage)`
         background: #AE69FF;
         color: #FFFFFF;
     }
+    padding: 5%;
     
 `
 
 
 function Intro({ key, image, name }) {
         const { width } = useWindowDimensions()
-        const edge = isMobile ? 0.45 * width : 0.2 * width
+        const edge = isMobile ? 0.42 * width : 0.2 * width
 
         return (
         <Div isMobile={isMobile} to={'/artist/' + name}>

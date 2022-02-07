@@ -22,11 +22,12 @@ const Div = styled.div`
 `
 
 function Gallery() {
-    const artists = getArtists()
+    const artists       = getArtists()['data']
+    const sortedArtists = artists.sort((a, b) => a['nick'].localeCompare(b['nick']))
     return (
         <Div>
             {
-                artists['data'].map((props, index) => {
+                sortedArtists.map((props, index) => {
                     return (
                         <Intro key={index} {...props} />
                     )

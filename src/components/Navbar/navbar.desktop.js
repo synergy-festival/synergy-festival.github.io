@@ -64,7 +64,7 @@ function NavDesktop({ page }) {
             <NavItem page={page} to='/ticket'>Ticket</NavItem>
             <NavItem page={page} to='/shop' disabled>Shop</NavItem>
             <NavItem page={page} to='/location' disabled>Location</NavItem>
-            <NavItem page={page} to='/virtual-art-gallery' last>Virtual Art Gallery</NavItem>
+            <NavItem page={page} to='/virtual-art-gallery' disabled last>Virtual Art Gallery</NavItem>
         </Nav>
     )
 }

@@ -22,6 +22,7 @@ const Top = styled.div`
     color: #AE69FF;
     font-size: 3rem;
     height: auto;
+    width: 90%;
 `
 
 function TwoCol(props) {  

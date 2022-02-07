@@ -46,6 +46,7 @@ const NavItem = styled(NavLink)`
     align-items: center;
     boredr-radius: 0;
     text-transform: uppercase;
+    text-decoration: none;
     width: 80%;
     border: none;
     border-bottom: .2rem solid ${rgba('#AE69FF', 0.6)};
@@ -87,7 +88,7 @@ function Menu(props) {
             <NavItem page={page} to='/ticket' onClick={handleClick}>Ticket</NavItem>
             <NavItem page={page} to='/shop'     disabled>Shop</NavItem>
             <NavItem page={page} to='/location' disabled>Location</NavItem>
-            <NavItem page={page} to='/virtual-art-gallery' onClick={handleClick}>Virtual Art Gallery</NavItem>
+            <NavItem page={page} to='/virtual-art-gallery' disabled>Virtual Art Gallery</NavItem>
         </MenuDiv>
     )
     
