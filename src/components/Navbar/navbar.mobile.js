@@ -89,7 +89,7 @@ function Menu(props) {
             <NavItem page={page} to='/ticket' onClick={handleClick}>Ticket</NavItem>
             <NavItem page={page} to='/shop'     disabled>Shop</NavItem>
             <NavItem page={page} to='/location' disabled>Location</NavItem>
-            <NavItem page={page} to='/virtual-art-gallery' disabled>Virtual Art Gallery</NavItem>
+            <NavItem page={page} to='/virtual-art-gallery' onClick={handleClick}>Virtual Art Gallery</NavItem>
         </MenuDiv>
     )
     
