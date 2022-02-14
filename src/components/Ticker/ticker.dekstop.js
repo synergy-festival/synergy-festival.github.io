@@ -56,7 +56,7 @@ function DesktopTicker() {
     return (
         <DesktopDiv>
             <Marquee style={DesktopStyle} gradientWidth='10'>
-                <DesktopSpan>SYNERGY Festival  2022.3.19 <DesktopSymbol>&rarr;</DesktopSymbol> 20</DesktopSpan>
+                <DesktopSpan>SYNERGY FESTIVAL 2022.3.19 <DesktopSymbol>&rarr;</DesktopSymbol> 20</DesktopSpan>
                 <DesktopSpan>Shape The Future With Music, Art and Technology</DesktopSpan>
             </Marquee>
         </DesktopDiv>

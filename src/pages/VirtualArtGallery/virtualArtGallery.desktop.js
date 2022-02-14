@@ -1,5 +1,7 @@
 import styled  from 'styled-components'
 import TwoRow  from "../../components/Layout/twoRow";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import galleryImage from '../../assests/img/virtual-art-gallery.png'
 
 const DivLeft = styled.div`
     height: auto;
@@ -36,13 +38,21 @@ const DivRight = styled.div`
 
 
 const Link = styled.a`
-    background: #AE69FF;
     color: #FFFFFF;
     text-decoration: none;
     height: auto;
     width: auto;    
-    padding: 2% 5%;
     margin: 5%;
+`
+
+const NOTE = styled.p`
+    text-align: center;
+    font-size: .8vw;
+    line-height: 2vh;
+    font-weight: bolder;
+    height: auto;
+    color: #AE69FF;
+    text-transform: none;
 `
 
 
@@ -168,7 +178,14 @@ function DesktopVirtualArtGallery() {
         <TwoRow 
             left={
                 <DivLeft>
-                    <Link target='_blank' href='https://hubs.mozilla.com/tjRBa38/synergy-virtual-art-gallery'>(Link)</Link>
+        
+                    <Link target='_blank' href='https://hubs.mozilla.com/tjRBa38/synergy-virtual-art-gallery'>
+                        <LazyLoadImage                 
+                            src={galleryImage}
+                            effect='opacity'
+                        /> 
+                        <NOTE>Please enter Virtual art gallery by click the picture</NOTE>
+                    </Link>
                     <T align='center'>構成你命運的每則故事，來自於你的創造</T>
                     <T1>You invent the story of how your destinies were made</T1>
                 </DivLeft>
@@ -225,7 +242,7 @@ function DesktopVirtualArtGallery() {
                         <BLOCK>
                             <b>林子桓&nbsp;Tzuhuan Lin</b><br/>
                             <A target='_blank' href='https://tzuhuanlin.com'>https://tzuhuanlin.com</A> <br/>
-                            做錄像跟裝置，打工為生。媒材不打算拘但現在只有錄像跟裝置。處理議題關於藝術是什麼，藝術的角色，藝術的方式。處理本質與尋找狀態呈現兩件事的韻。旅居紐約，明年北美館舉辦個展尋找欲望的各種狀態；陳以軒大部分時間都在拍照，有時候也拍紀錄片。媒材形式橫跨平面攝影、創作書、錄像、影像裝置、以及行為演出。近期創作多關注於攝影如何處理個人的生命史，影像媒介在進行溝通傳達時的所產生的模糊與誤謬，還有一些垃圾靜物。
+                            林子桓做錄像跟裝置，打工為生。台灣1986年生於台灣台北，現於布魯克林生活與工作。媒材不拘但現在只有錄像跟裝置。處理議題關於藝術是什麼，藝術的角色，藝術的方式。處理本質與尋找狀態呈現兩件事的韻。
                             <SMALLBR><br/></SMALLBR>
                             His work centers around personal experience as an immigrant, adapts to connect different subjects or stories to address the phenomena. He received an MFA in Digital Arts at Pratt Institute in Brooklyn. Lin’s work has been included in international group exhibitions such as ”The 15th Digital Art Festival Taipei” “The 6th International Video Art Exhibition”, “ADAF 14th Athens Digital Arts Festival” and solo exhibitions at Taipei Fine Art Museum, Kuandu Museum of Fine Arts. 
                         </BLOCK>
@@ -291,7 +308,7 @@ function DesktopVirtualArtGallery() {
                             Currently working on personal creations related to animation, Video Jockey and 3D fields.The focus is on exploring and creating works of unknown elements to express oneself.  I travel around the island oftenly and get a different inspiration each time I travel. It is the source of my inspiration, moreover, these are also closely related to my creation.
                         </BLOCK>
                         <BLOCK>
-                            <b>Frran Bertomeu Castells & 羅妍婷</b><br/>
+                            <b>Ferran Bertomeu Castells & 羅妍婷</b><br/>
                             <A target='_blank' href='https://fonserbc.itch.io/'>https://fonserbc.itch.io/</A><br/>
                             Ferran Bertomeu Castells (巴塞隆納，西班牙) 是個熱衷於音樂互動作品的遊戲開發工程師。羅妍婷(台灣)是個獲獎爵士音樂家和跨領域自由創作者。兩人現居台北，多次合作探索音樂敘事及遊戲互動的交集。
                             <SMALLBR><br/></SMALLBR>
@@ -396,12 +413,12 @@ function DesktopVirtualArtGallery() {
                     </T2>
                     <T big={true}>工作人員</T>
                     <T2>
+                        策展人：李彥儀與新能祭團隊 <br/>
                         藝術空間藝術家：林子桓、吳維佳、XTRUX <br/>
-                        作品展示藝術家：莊凱竣、趙怡然、N. Andrew Walsh, Guy Ronen, Alice Minervini, Elettra Giunta, HakureiNeko, Tzu Ni, Jacys Lin, Master Chu, RONG, Ferran Bertomeu Castells & 羅妍婷、姚睿蘭、陳政維、鄭道元、阮柏遠、Bing<br/>
+                        策展助理：邱楚童 <br/>
                         虛擬藝廊音樂： 吳維佳<br/>
                         Avatar: 蜜蜂、貓頭鷹、蠍子 by <A target='_blank' href='https://sketchfab.com/Mofn'>@Mofn</A>, 新能祭 Avatar by XTRUX<br/>
-                        策展人：李彥儀與新能祭團隊 <br/>
-                        策展助理：邱楚童 <br/>
+                        作品展示藝術家：莊凱竣、趙怡然、N. Andrew Walsh, Guy Ronen, Alice Minervini, Elettra Giunta, HakureiNeko, Tzu Ni, Jacys Lin, Master Chu, RONG, Ferran Bertomeu Castells & 羅妍婷、姚睿蘭、陳政維、鄭道元、阮柏遠、Bing<br/>
                     </T2>
                 </DivRight>
             }
