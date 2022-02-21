@@ -17,6 +17,15 @@ import Dizparity    from '../assests/img/artists/Dizparity.jpg'
 import Ludol777     from '../assests/img/artists/Ludol777.jpg'
 import MaoMaoField  from '../assests/img/artists/MaoMaoField.jpg'
 import ArdentWei    from '../assests/img/artists/ArdentWei.jpg'
+import Chunyan      from '../assests/img/artists/春艷.jpg'
+import ThreeR2      from '../assests/img/artists/3R2.jpg'
+import QueerTrash  from '../assests/img/artists/Queer_Trash.jpg'
+import Goubo       from '../assests/img/artists/狗柏.jpg'
+import DungiSapor  from '../assests/img/artists/DungiSapor.jpg'
+import JesseChen   from '../assests/img/artists/JesseChen.jpg'
+import LLEN        from '../assests/img/artists/LLEN.jpg'
+import PCB         from '../assests/img/artists/PCB.jpg'
+import LiYifan     from '../assests/img/artists/李亦凡.jpg'
 
 const ARTISTS = {
     'data'  : [
@@ -172,6 +181,78 @@ const ARTISTS = {
             'tag'  : 'VJ',
             'content': '網路世代造就了他，志在創作，凝視音樂。在學時期創作媒材為攝影與錄像藝術，延畢後開始接觸表演藝術，發跡於獨立樂團演出，初期活躍於 Korner 的 UnderU 廠牌的音樂活動。而後征戰過各類型音樂場景、國內外音樂祭。社畜時期曾任主流市場的演唱會製作與舞台導演，也擔任過地下派對與台北時裝週規劃，對於藝人、音樂創作者的合作相當熟悉。 <br/>多重身分的他，自始至終都在音樂場景中工作，不斷地從不同軟／硬體單位、各種商業／藝術面向審視 VJ 的形式與內容，對於 VJ 的呈現力求持續突破定義。擅長於大量素材的即刻剪輯、層次堆疊與美感糅和，敏銳於音樂情緒的起伏與節奏的剖析，熱衷於製造驚喜感與視覺的破壞張力，理想於感官速食世代造成第五次衝擊。'
         }, 
+        {
+            'image': Chunyan, 
+            'name' : '春艷',
+            'nick' : 'chunyan',
+            'title': '溫和的叛逆', 
+            'tag'  : 'SYNERGY TRIANGLE LIVE A/V',
+            'content': '2020 年底發行在顏社的第一張個人專輯《感恩的心》，於 2021 年第 12 屆金音獎上以此專輯獲得最佳嘻哈專輯獎。 <br/>與 Leo王組成的雙人嘻哈團體「夜貓組」，在 2017 年發行首張專輯《健康歌曲 OwO》，電幻獵奇的曲風搭配光怪陸離的影像，推出後廣受各界好評，入圍第 29 屆金曲獎最佳演唱組合獎，並拿下第 9 屆金音獎最佳專輯獎。'
+        }, 
+        {
+            'image': ThreeR2, 
+            'name' : '3R2',
+            'nick' : 'threer2',
+            'title': '遊戲配樂開始音樂之路', 
+            'tag'  : 'SYNERGY TRIANGLE LIVE A/V',
+            'content': '作曲家、編曲家與DJ。9 歲受同為作曲家的父親影響開始作曲，2011 年高中時期開始 DJ。 <br/>曾為 Cytus、Deemo、CHUNITHM、Muse Dash、小魔女諾貝塔、食用系少女等遊戲作品製作過樂曲，也為阿部瑪利亞、黃鴻升等藝人編過歌曲。DJ 方面則在台灣、日本、美國等地的活動演出過。2018 年獲第九屆金音創作獎最佳電音單曲獎。'
+        },
+        {
+            'image': LiYifan, 
+            'name' : '李亦凡',
+            'nick' : 'liyifan',
+            'title': '極度軟爛幹話集錦', 
+            'tag'  : 'SYNERGY TRIANGLE LIVE A/V',
+            'content': '作品回繞著陰謀論、內容農場與冷知識，透過荒謬的敘事手法提供一種利基的美學娛樂。近年來專注遊戲引擎與虛擬攝影棚等影像科技，試圖以極度工具理性的方法生產極度軟爛的幹話集錦。'
+        },
+        {
+            'image': PCB, 
+            'name' : '理化兄弟P.C.B',
+            'nick' : 'pcb',
+            'title': '', 
+            'tag'  : 'SYNERGY TRIANGLE LIVE A/V',
+            'content': '當年在玩太空侵略者的無名氏兄弟因為一道詭異光束被外星人綁架，於是幻化成 DJ 與 VJ 雙人組合，理化兄弟誕生。2010 年返回地球，2011 年開始常於台灣的地下電音場景做演出。 <br/>2013 年發行了〈進擊巨人〉8-bit 單曲混音且免費下載，2014 年發行了全台首張 8-bit 舞曲專輯《理化兄弟 P.C.B》，2016 年獲邀至東京與 YMCK 同台演出，同年發行第二張專輯《Hacker_son 黑客之子》。2022 年即將發行第三張專輯《Syn The Wave》。'
+        },
+        {
+            'image': Goubo, 
+            'name' : '美秀集團 狗柏',
+            'nick' : 'goubo',
+            'title': '真・賽博台客傳人', 
+            'tag'  : 'SYNERGY TRIANGLE LIVE A/V',
+            'content': '美秀集團之低科技發明家（a.k.a.電火王），以自製樂器「炫炮」橫空出世。致力於研發自製樂器，建立與這片土地及其他創作者之間的連結；此人目前迷失於多色寶山，為福爾摩沙丘「真・賽博台客」傳人之一。'
+        },
+        {
+            'image': LLEN, 
+            'name' : '@LLEN',
+            'nick' : 'llen',
+            'title': '台灣電音教父', 
+            'tag'  : 'DJ SET',
+            'content': '被稱為台灣電音教父的他，迄今已經歷了將近 30 個年頭的電子舞曲生涯。在全台各地上山下海、從橋下辦到片場，從舞廳辦到兒童樂園，開啟人們對電音派對的無限想像力，開創了台灣後來的瑞舞風潮。在台灣，整個 90 年代，他的名字幾乎就代表了最前衛、最另類的電子音樂。 <br/><br/>之後他的足跡更遍及歐洲、美洲和亞洲各地，足跡也遍佈中國大陸的大江南北，並從早期推廣電子舞曲時便持續不綴的發表寫作、評論，除了在派對上操盤全場氣氛如痴如醉，他更在電子音樂書寫上佔有重要份量，豐厚的音樂知識橫跨各種類型，跨界至當代藝術領域，於 2011 年獲邀至義大利威尼斯雙年展，擔任台灣館音樂演出藝術家。 '
+        },
+       {
+            'image': DungiSapor, 
+            'name' : '汝妮Dungi Sapor',
+            'nick' : 'dungisapor',
+            'title': '能量與爆發力的鍛鍊', 
+            'tag'  : 'DJ SET',
+            'content': '帶有原民、民俗、神秘元素的電音創作者，清楚建立出自己的聲響辨識。大學至今忠於 Techno，她的選曲獨特、強烈又充滿力量，從 Korner 地下場景開始鍛鍊能量與爆發力，現在更是攻進大舞台說服各種舞客，也曾與歐洲 Techno DJ Monoloc 同台演出。 <br/>未來會用更多音樂與時代連結自身的母體文化。Techno 傳入台灣超過 25 年，她就是這種音樂紮根茁壯後在本地土壤開出的花朵。'
+        },
+       {
+            'image': JesseChen, 
+            'name' : 'Jesse Chen',
+            'nick' : 'dungisapor',
+            'title': '柏林影響的派對風格', 
+            'tag'  : 'DJ SET',
+            'content': '雙好設計 2 by Wu&Chen 與派對策劃單位 Pleasure Always Brings Pain (PABP) 主理人，派對風格深受柏林場景影響，近年陸續邀請英國製作人 Perc、柏林 Grounded Theory 派對主理 Henning Baer、柏林 Herrensauna 派對創始成員 MCMLXXXV、巴黎 Taapion Records 創辦人 AWB、维也納 Meat Market 主腦 Gerald VDH、柏林新銳 DJ 製作人 Parallx、Introversion、Emika、Daniela La Luz 以及柏林龐克教父 Mark Reeder 來臺並同台演出。 <br/><br/>其視覺設計、活動策劃與 DJ 背景，曾任 agnès b. 台灣區音樂總監、ALLSAINTS、MSGM、W TAIPEI 派對 DJ，陸續將歐洲電子音樂場景，透過策展與音樂活動輸入臺灣，並以《我在柏林－音樂教父馬克雷德柏林攝影文件展》獲 2020 年德國 iF Design Award，並在 Pawnshop、B1、Spectrum Formosus 光譜音樂祭、Mixmag Taiwan 演出。'
+        },
+       {
+            'image': QueerTrash, 
+            'name' : 'Queer Trash Taiwan 台灣酷兒垃圾',
+            'nick' : 'queertrash',
+            'title': '', 
+            'tag'  : 'LABEL',
+            'content': '<p>由獨立音樂人 Byron Duve 與他的朋友們所創立，主旨為提供台灣的 LGBTQIA 族群一個安全的派對交流空間：除了不定期舉辦跳舞派對之外，讓主流社會看見台灣多元蓬勃不妥協的地下酷兒文化才是最終目標。<br />　<br />「演出陣容」<br />The Trashes:<br />　<br />-Target Employee (US)<br />-Sympathy (UK)<br />-MONYI - Mengshu + Byrona (TW)</p>'
+        },
     ]
 }
 
